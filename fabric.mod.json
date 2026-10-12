@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "onyxskytoggle",
+  "version": "${version}",
+  "name": "Onyx Sky Toggle",
+  "description": "Hotkeys zum Umschalten der Onyx-Sky-Layer (Rauch, Obsidian, Tag).",
+  "environment": "client",
+  "entrypoints": { "client": ["de.onyx.skytoggle.OnyxSkyToggleClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "fabric-api": "*" }
+}
